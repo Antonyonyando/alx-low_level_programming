@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- *main - This program prints the line with puts function
- *return - if the return is 0 it indicates successful execution
+ * main - This program prints the line with puts function
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 
