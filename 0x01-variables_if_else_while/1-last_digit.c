@@ -8,16 +8,16 @@
  */
 int main(void)
 {
-	int n = 98;
-
-	int lastdigit = n % 10;
+	int n;
+	int lastdigit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	lastdigit = n % 10
 
 	if (lastdigit > 5)
 	{/* if condition is true then print the following */
-	printf("lastdigit of n is %d and is greater than 5\n", lastdigit);
+	printf("lastdigit of n is %d and is greater than5\n", lastdigit);
 	}
 	else if (lastdigit == 0)
 	{/* if else if condition is true then print the following */
@@ -25,8 +25,8 @@ int main(void)
 	}
 	else
 	{/* if none is true print and is less than 6 and not 0 */
-	printf("lastdigit of n is %d and is less than 6 and not 0\n", lastdigit);
+	printf("lastdigit of n is %d  and is less than 6 and not 0\n", lastdigit);
 	}
-	printf("The string last digit of %d is", lastdigit);
+	printf("The string last digit of n is %d\n", lastdigit);
 	return (0);
 }
