@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int n;
+	int n = 10;
 
 	if (n == 0)
 	{/* if condition is true then print the following */
