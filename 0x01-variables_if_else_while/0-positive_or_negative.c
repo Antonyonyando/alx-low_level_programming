@@ -7,8 +7,9 @@ int main(void)
 {
 	int n;
 
-	printf("Enter a  number: ");
+	printf("Enter a number: ");
 	scanf("%d", &n);
+	printf("My number is: %d.\n", n);
 
 	if (n == 0)
 	{/* if condition is true then print the following */
