@@ -9,15 +9,15 @@ int main(void)
 
 	if (n == 0)
 	{/* if condition is true then print the following */
-	printf("The value of n is equal to 0");
+	printf("The value of n is equal to 0\n");
 	}
 	else if (n > 0)
 	{ /* if else if condition is true print the following */
-	printf("The value of n is positive");
+	printf("The value of n is positive\n");
 	}
 	else
 	{/* if none of the condition is true */
-	printf("The value of n is negative");
+	printf("The value of n is negative\n");
 	}
 
 	printf("The exact value of n is: %d\n", n);
