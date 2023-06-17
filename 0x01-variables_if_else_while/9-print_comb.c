@@ -1,24 +1,24 @@
 #include <stdio.h>
 /**
- * main - Pot of entry
+ * main - Point of entry
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char n  = '0';
+	char n = '0';
 
-	while (0 <= 9)
+	while (n <= 9)
 	{
 	putchar(n);
-	if (n == 9)
+	if (n != 9)
 	{
-	putchar('&');
+	putchar(',');
+	putchar(' ');
 	}
 	else
 	{
-	(n != 9);
-	putchar(',');
-	putchar(' ');
+	(n == 9);
+	putchar('&');
 	}
 	n++;
 	}
