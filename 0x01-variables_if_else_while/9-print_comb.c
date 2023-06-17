@@ -17,7 +17,6 @@ int main(void)
 	}
 	else
 	{
-	(n == 9);
 	putchar('&');
 	}
 	n++;
