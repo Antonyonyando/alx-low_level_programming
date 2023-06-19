@@ -4,23 +4,21 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-	char n = '0';
+{	int i;
 
-	while (n <= 9)
+	for (i == 0; i <= 9; i++)
 	{
-	putchar(n);
-	if (n != 9)
+	putchar('0' + i);
+	if (i == 9)
+	{
+	putchar('&');
+	}
+	else
 	{
 	putchar(',');
 	putchar(' ');
 	}
-	else
-	{
-	putchar('&');
 	}
-	n++;
-	}
-	putchar('\n');
+
 	return (0);
 }
