@@ -1,17 +1,18 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet - Write the alphabet
- * Return: Always 0 (Success)
+ * main - Point of entry
+ * Return: Always 0 (Succes)
  */
+
 void print_alphabet(void)
 {
-	char letter = 'a';
+	char n = 'a';
 
-	while (letter <= 'z')
+	while (n <= 'z')
 	{
-	put67 char(letter);
-	letter++;
+	_putchar(n);
+	n++;
 	}
-	putchar('\n');
+
+	_putchar('\n');
 }
