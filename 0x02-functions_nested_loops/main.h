@@ -1,3 +1,2 @@
-int long
-int short
-int long long
+int cool;
+int var;
