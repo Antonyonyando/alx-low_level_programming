@@ -5,6 +5,9 @@
  *
  * Return: Always 0.
  */
+int _islower(int H);
+int _putchar(int r); 
+
 int main(void)
 {
     int r;
