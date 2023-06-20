@@ -7,7 +7,10 @@ void print_alphabet_x10(void)
 {
 
 	char n = 'a';
+	int i= 0;
 
+	while (i < 10)
+	{
 	while (n <= 'z')
 	{
 	_putchar(n);
@@ -15,4 +18,7 @@ void print_alphabet_x10(void)
 	}
 
 	_putchar('\n');
+	n = 'a';
+	i++;
+	}
 }
