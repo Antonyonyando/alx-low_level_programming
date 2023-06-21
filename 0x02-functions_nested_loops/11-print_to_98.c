@@ -12,12 +12,7 @@ void print_to_98(char n)
 
 	while (n <= 98)
 	{
-	if (n == 98)
-	{
-	putchar(',');
-	putchar(' ');
-	}
-	putchar(n);
-	n++;
+	printf("%d", n);
+	printf("\n");
 	}
 }
