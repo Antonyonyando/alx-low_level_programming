@@ -7,22 +7,21 @@
  */
 int main(void)
 {
-        int n;
+	int n;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
-        if (n == 0)
-        {/* if condition is true then print the following */
-        printf("%d is zero\n", n);
-        }
-        else if (n > 0)
-        {/* if else if condition is true print the following */
-        printf("%d is positive\n", n);
-        }
-        else
-        {/* if none of the condition is true */
-        printf("%d is negative\n", n);
-        }
-        return (0);
+	if (n == 0)
+	{
+	printf("%d is zero\n", n);
+	}
+	else if (n > 0)
+	{
+	printf("%d is positive\n", n);
+	}
+	else
+	{
+	printf("%d is negative\n", n);
+	return (0);
 }
