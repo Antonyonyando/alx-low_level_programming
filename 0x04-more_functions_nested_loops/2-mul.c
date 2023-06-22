@@ -13,5 +13,5 @@ int mul(int a, int b)
 	int result = a * b;
 
 	printf("The multiplication of %d and %d is: %d\n", a, b, result);
-	return (0);
+	return (result);
 }
